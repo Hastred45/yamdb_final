@@ -87,7 +87,8 @@ class UserViewSet(viewsets.ModelViewSet):
         if request.method == 'GET':
             serializer = MeSerializer(user)
             return Response(serializer.data, status=status.HTTP_200_OK)
-        if request.method == 'PATCH':
+        else:
+            request.method == 'PATCH'
             serializer = MeSerializer(user, data=request.data, partial=True)
             serializer.is_valid(raise_exception=True)
             serializer.save()
@@ -155,7 +156,8 @@ class TitleViewSet(viewsets.ModelViewSet):
     def get_serializer_class(self):
         if self.action in ['list', 'retrieve']:
             return TitleDisplaySerializer
-        if self.action in ['create', 'update', 'partial_update']:
+        else:
+            self.action in ['create', 'update', 'partial_update']
             return TitleCreateSerializer
 
 
@@ -180,9 +182,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         title_id = self.kwargs.get("title_id")
         title_u = get_object_or_404(Title, pk=title_id)
-        n_queryset = title_u.reviews.all()
-
-        return n_queryset
+        return title_u.reviews.all()
 
     def perform_create(self, serializer):
         title_id = self.kwargs.get("title_id")
@@ -212,8 +212,7 @@ class CommentViewSet(viewsets.ModelViewSet):
         title = get_object_or_404(Title, pk=title_id)
         review_id = self.kwargs.get("review_id")
         review_u = get_object_or_404(Review, pk=review_id, title=title)
-        n_queryset = review_u.comments.all()
-        return n_queryset
+        return review_u.comments.all()
 
     def perform_create(self, serializer):
         title_id = self.kwargs.get('title_id')
