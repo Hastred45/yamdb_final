@@ -12,6 +12,8 @@ django-filter==2.4.0
 djangorestframework==3.12.4
 djangorestframework-simplejwt==5.1.0
 pytest-django==4.5.2
+pytest-pythonpath==0.7.3
+pytest==6.2.4
 gunicorn==20.0.4
 psycopg2-binary==2.8.6
 flake8==4.0.1
