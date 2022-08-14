@@ -26,8 +26,7 @@ jobs:
         python manage.py test
     
     - name: Test with pytest
-      run: |
-        python pytest
+      run: pytest
 
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
