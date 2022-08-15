@@ -24,6 +24,10 @@ jobs:
         python -m flake8
         cd api_yamdb/
         python manage.py test
+    
+    - name: Test with pytest 
+      run: | 
+        pytest
   
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
@@ -50,6 +54,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: executing remote ssh commands to deploy
         uses: appleboy/ssh-action@master
