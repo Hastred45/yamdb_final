@@ -14,8 +14,7 @@
 
 ## Развёрнутый проект
 
-http://hastred.sytes.net/admin  http://130.193.53.106/admin/
-
+http://hastred.sytes.net/admin  http://130.193.53.106/admin/ _(если временный домен откажется работать)_
 
 # CI/CD для проекта API YAMDB
 
