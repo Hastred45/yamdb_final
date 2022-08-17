@@ -48,8 +48,8 @@ jobs:
         with:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:v2
-          # context: api_yamdb
-          # file: api_yamdb/Dockerfile
+          context: api_yamdb
+          file: api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
