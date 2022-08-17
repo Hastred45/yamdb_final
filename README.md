@@ -1,16 +1,16 @@
 [![Django-app workflow](https://github.com/Hastred45/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Hastred45/yamdb_final/actions/workflows/yamdb_workflow.yml)
-[![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=3d454d&color=EA8A3B)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/-Django-464646?style=flat&logo=Django&logoColor=56C0C0&color=EA8A3B)](https://www.djangoproject.com/)
-[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat&logo=Django%20REST%20Framework&logoColor=56C0C0&color=EA8A3B)](https://www.django-rest-framework.org/)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat&logo=PostgreSQL&logoColor=56C0C0&color=EA8A3B)](https://www.postgresql.org/)
-[![JWT](https://img.shields.io/badge/-JWT-464646?style=flat&color=EA8A3B)](https://jwt.io/)
-[![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat&logo=NGINX&logoColor=56C0C0&color=EA8A3B)](https://nginx.org/ru/)
-[![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat&logo=gunicorn&logoColor=56C0C0&color=EA8A3B)](https://gunicorn.org/)
-[![Docker](https://img.shields.io/badge/-Docker-464646?style=flat&logo=Docker&logoColor=56C0C0&color=EA8A3B)](https://www.docker.com/)
-[![Docker-compose](https://img.shields.io/badge/-Docker%20compose-464646?style=flat&logo=Docker&logoColor=56C0C0&color=EA8A3B)](https://www.docker.com/)
-[![Docker Hub](https://img.shields.io/badge/-Docker%20Hub-464646?style=flat&logo=Docker&logoColor=56C0C0&color=EA8A3B)](https://www.docker.com/products/docker-hub)
-[![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat&logo=GitHub%20actions&logoColor=56C0C0&color=EA8A3B)](https://github.com/features/actions)
-[![Yandex.Cloud](https://img.shields.io/badge/-Yandex.Cloud-464646?style=flat&logo=Yandex.Cloud&logoColor=56C0C0&color=EA8A3B)](https://cloud.yandex.ru/)
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=ffffff&color=043A6B)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat&logo=Django&logoColor=ffffff&color=043A6B)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat&logo=Django%20REST%20Framework&logoColor=ffffff&color=043A6B)](https://www.django-rest-framework.org/)
+[![JWT](https://img.shields.io/badge/-JWT-464646?style=flat&color=043A6B)](https://jwt.io/)
+[![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat&logo=NGINX&logoColor=ffffff&color=043A6B)](https://nginx.org/ru/)
+[![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat&logo=gunicorn&logoColor=ffffff&color=043A6B)](https://gunicorn.org/)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat&logo=PostgreSQL&logoColor=ffffff&color=043A6B)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/-Docker-464646?style=flat&logo=Docker&logoColor=ffffff&color=043A6B)](https://www.docker.com/)
+[![Docker-compose](https://img.shields.io/badge/-Docker%20compose-464646?style=flat&logo=Docker&logoColor=ffffff&color=043A6B)](https://www.docker.com/)
+[![Docker Hub](https://img.shields.io/badge/-Docker%20Hub-464646?style=flat&logo=Docker&logoColor=ffffff&color=043A6B)](https://www.docker.com/products/docker-hub)
+[![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat&logo=GitHub%20actions&logoColor=ffffff&color=043A6B)](https://github.com/features/actions)
+[![Yandex.Cloud](https://img.shields.io/badge/-Yandex.Cloud-464646?style=flat&logo=Yandex.Cloud&logoColor=ffffff&color=043A6B)](https://cloud.yandex.ru/)
 
 ## Развёрнутый проект
 
@@ -20,13 +20,13 @@ http://hastred.sytes.net/admin  http://130.193.53.106/admin/
 # CI/CD для проекта API YAMDB
 
 ## Описание проекта
-Проект _**YaMDb**_ собирает **отзывы** пользователей на **произведения**. Сами произведения в _**YaMDb**_ не хранятся, здесь нельзя посмотреть фильм или послушать музыку.  
+Проект **YaMDb** собирает отзывы пользователей на произведения. Сами произведения в **YaMDb** не хранятся, здесь нельзя посмотреть фильм или послушать музыку.  
   
-**Произведения** делятся на **категории**: «Книги», «Фильмы», «Музыка». Список **категорий** может быть расширен администратором.  
-Произведению может быть присвоен **жанр** из списка предустановленных. Новые **жанры** может создавать только администратор.  
-Благодарные или возмущённые пользователи оставляют к произведениям текстовые **отзывы** и ставят произведению **оценку** в диапазоне от **1** до **10** (целое число); из пользовательских **оценок** формируется усреднённая оценка произведения — **рейтинг** (целое число). На одно произведение пользователь может оставить только один отзыв.  
+Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий может быть расширен администратором.  
+Произведению может быть присвоен жанр из списка предустановленных. Новые жанры может создавать только администратор.  
+Благодарные или возмущённые пользователи оставляют к произведениям текстовые отзывы и ставят произведению оценку в диапазоне от 1 до 10 (целое число); из пользовательских оценок формируется усреднённая оценка произведения — рейтинг (целое число). На одно произведение пользователь может оставить только один отзыв.  
   
-В проекте реализован _**API**_-**сервис** для аутентификации пользователей и работы со всеми вышеперечисленными ресурсами. Подробнее в разделе примеров запросов и ответов. Аутентификация пользователей реализована по стандарту _**JWT**_.  
+В проекте реализован **API**-**сервис** для аутентификации пользователей и работы со всеми вышеперечисленными ресурсами. Подробнее в разделе примеров запросов и ответов. Аутентификация пользователей реализована по стандарту **JWT**.  
 
 ## Работа с API
 ### Доступные запросы
@@ -126,8 +126,6 @@ http://hastred.sytes.net/admin  http://130.193.53.106/admin/
 - **Модератор** (`moderator`) — те же права, что и у Аутентифицированного пользователя плюс право удалять любые отзывы и комментарии.
 - **Администратор** (`admin`) — полные права на управление всем контентом проекта. Может создавать и удалять произведения, категории и жанры. Может назначать роли пользователям.
 - **Суперюзер Django** — обладет правами администратора (`admin`)  
-### Примеры запросов и ответов
-После того, как проект, документацию по API можно найти на эндпоинте `.../api/v1/redoc/`.
 
 # Разворачивание
 
