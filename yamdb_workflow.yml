@@ -24,7 +24,7 @@ jobs:
         python -m flake8
         cd api_yamdb/
         python manage.py test
-
+    
     - name: Test with pytest 
       run: | 
         pytest
