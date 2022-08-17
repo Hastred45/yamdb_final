@@ -14,7 +14,7 @@
 
 ## Развёрнутый проект
 
-
+http://hastred.sytes.net/admin
 
 
 # CI/CD для проекта API YAMDB
