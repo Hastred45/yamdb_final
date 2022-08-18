@@ -14,9 +14,11 @@
 
 ## Развёрнутый проект
 
-http://hastred.sytes.net/admin
+http://hastred.sytes.net/admin/
+http://hastred.sytes.net/redoc/
 
 http://130.193.53.106/admin/ _(если временный домен откажется работать)_
+http://130.193.53.106/redoc/
 
 # CI/CD для проекта API YAMDB
 
@@ -208,3 +210,11 @@ Community Edition (CE) — бесплатная и общедоступная в
 - docker-compose exec web python manage.py dumpdata > fixtures.json
 ## Для загрузки:
 - docker-compose exec web python manage.py loaddata fixtures.json
+
+### Авторы:
+
+Сергей - https://github.com/Hastred45
+
+Глеб - https://github.com/Gleb-K9
+
+Влад - https://github.com/Alpha-jpg-beep
