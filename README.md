@@ -15,9 +15,11 @@
 ## Развёрнутый проект
 
 http://hastred.sytes.net/admin/
+
 http://hastred.sytes.net/redoc/
 
 http://130.193.53.106/admin/ _(если временный домен откажется работать)_
+
 http://130.193.53.106/redoc/
 
 # CI/CD для проекта API YAMDB
