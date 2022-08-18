@@ -18,7 +18,7 @@ http://hastred.sytes.net/admin/
 
 http://hastred.sytes.net/redoc/
 
-http://130.193.53.106/admin/ _(если временный домен откажется работать)_
+http://130.193.53.106/admin/ (если временный домен откажется работать)
 
 http://130.193.53.106/redoc/
 
