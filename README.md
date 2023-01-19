@@ -12,16 +12,6 @@
 [![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat&logo=GitHub%20actions&logoColor=ffffff&color=043A6B)](https://github.com/features/actions)
 [![Yandex.Cloud](https://img.shields.io/badge/-Yandex.Cloud-464646?style=flat&logo=Yandex.Cloud&logoColor=ffffff&color=043A6B)](https://cloud.yandex.ru/)
 
-## Развёрнутый проект
-
-http://hastred.sytes.net/admin/
-
-http://hastred.sytes.net/redoc/
-
-http://130.193.53.106/admin/ (если временный домен откажется работать)
-
-http://130.193.53.106/redoc/
-
 # CI/CD для проекта API YAMDB
 
 ## Описание проекта
